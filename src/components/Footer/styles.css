@@ -1,0 +1,19 @@
+footer {
+    background-color: var(--bg-blue);
+  }
+  
+  .ct-footer-description {
+    padding: 50px 0;
+  }
+  
+  .ct-footer-description p {
+    font-size: 16px;
+    color: var(--text-title);
+  }
+  
+  @media (min-width: 700px) {
+    .ct-footer-description {
+      display: flex;
+      justify-content: space-between;
+    }
+  }

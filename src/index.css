@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --text-title: #FFFFFF;
+  --text-primary-section: #5E5E5E;
+  --text-second-blue: #3C9AF0;
+
+  --bg-border-blue: #3C9AF0;
+  --bg-blue: #3C9AF0;
+  --bg-white: #FFFFFF; 
+  --bg-light-grey: #C8C8C8;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins'
+}
+
+.ct-cards-container {
+  max-width: 746px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.ct-title-section {
+  color: var(--text-primary-section);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 20px;
+} 
+
+.ct-mg-top-25 {
+  margin-top: 25px;
+}
+
+.ct-mg-bottom-25 {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 700px) {
+  .ct-title-section {
+    font-size: 32px;
+  }
+}

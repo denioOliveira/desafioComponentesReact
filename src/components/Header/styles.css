@@ -1,0 +1,20 @@
+.ct-header {
+    background-color: var(--bg-blue);
+    height: 70px;
+  }
+  
+  .ct-nav-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .ct-nav-container h1 {
+    font-size: 20px;
+    color: var(--text-title);
+  }
+  
+  @media (min-width: 700px) {
+    .ct-nav-container h1 {
+      font-size: 24px;
+    }
+  }

@@ -1,0 +1,18 @@
+.ct-comment-card {
+    background-color: var(--bg-white);
+    padding: 25px 20px;
+    border: 1px solid var(--bg-blue);
+    border-radius: 12px;
+  }
+  
+  .ct-comment-card p {
+    color: var(--text-second-blue);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  @media (min-width: 700px) {
+    .ct-comment-card p {
+      font-size: 20px;
+    }
+  }
